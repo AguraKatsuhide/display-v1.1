@@ -1,0 +1,57 @@
+﻿빌드 시작: 2015-10-11 오후 6:12:14
+     1>2 노드의 "C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\Display.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\Display.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(33) : 'MBCS_Support_Deprecated_In_MFC' 선언을 참조하십시오.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\Display.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt AutomataKR.cpp CvvImage.cpp KeyPrint.cpp Disply.cpp DisplyDlg.cpp
+         DisplyDlg.cpp
+     1>c:\users\katsu\desktop\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\users\katsu\desktop\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>C:\Users\katsu\Desktop\opencv\build\include\opencv2/legacy/blobtrack.hpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>C:\Users\katsu\Desktop\opencv\build\include\opencv2/legacy/blobtrack.hpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+         Disply.cpp
+     1>c:\users\katsu\desktop\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\users\katsu\desktop\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>C:\Users\katsu\Desktop\opencv\build\include\opencv2/legacy/blobtrack.hpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>C:\Users\katsu\Desktop\opencv\build\include\opencv2/legacy/blobtrack.hpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+         KeyPrint.cpp
+     1>KeyPrint.cpp(20): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>KeyPrint.cpp(35): warning C4101: 'hThread2' :참조되지 않은 지역 변수입니다.
+     1>KeyPrint.cpp(40): warning C4101: 'pThreadProc2' :참조되지 않은 지역 변수입니다.
+     1>KeyPrint.cpp(144): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>KeyPrint.cpp(181): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>KeyPrint.cpp(182): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>KeyPrint.cpp(183): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+         CvvImage.cpp
+         AutomataKR.cpp
+         코드를 생성하고 있습니다...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0412" /Ix64\Debug\ /nologo /fo"x64\Debug\Display.res" Display.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\katsu\Desktop\최종본\Display-v1.1\x64\Debug\Display.exe" /INCREMENTAL /NOLOGO Psapi.lib winmm.lib ws2_32.lib opencv_core245.lib opencv_highgui245.lib opencv_imgproc245.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\katsu\Desktop\최종본\Display-v1.1\x64\Debug\Display.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\katsu\Desktop\최종본\Display-v1.1\x64\Debug\Display.lib" /MACHINE:X64 x64\Debug\Display.res
+         x64\Debug\AutomataKR.obj
+         x64\Debug\CvvImage.obj
+         x64\Debug\KeyPrint.obj
+         x64\Debug\Disply.obj
+         x64\Debug\DisplyDlg.obj
+         x64\Debug\stdafx.obj
+     1>LINK : warning LNK4039: /SECTION 옵션으로 지정된 '.SHAREDATA' 섹션이 없습니다.
+         Display.vcxproj -> C:\Users\katsu\Desktop\최종본\Display-v1.1\x64\Debug\Display.exe
+     1>"C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\Display.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:06.10

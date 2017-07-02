@@ -1,0 +1,40 @@
+﻿빌드 시작: 2015-10-14 오전 11:23:54
+     1>2 노드의 "C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\Display.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\Display.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt AutomataKR.cpp CvvImage.cpp KeyPrint.cpp Disply.cpp DisplyDlg.cpp stdafx.cpp
+         AutomataKR.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(33) : 'MBCS_Support_Deprecated_In_MFC' 선언을 참조하십시오.
+         CvvImage.cpp
+         KeyPrint.cpp
+     1>KeyPrint.cpp(35): warning C4101: 'hThread2' :참조되지 않은 지역 변수입니다.
+     1>KeyPrint.cpp(40): warning C4101: 'pThreadProc2' :참조되지 않은 지역 변수입니다.
+         Disply.cpp
+     1>c:\users\katsu\desktop\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         DisplyDlg.cpp
+     1>c:\users\katsu\desktop\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         stdafx.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _AFXDLL /l"0x0412" /Ix64\Release\ /nologo /fo"x64\Release\Display.res" Display.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\katsu\Desktop\최종본\Display-v1.1\x64\Release\Display.exe" /INCREMENTAL:NO /NOLOGO Psapi.lib winmm.lib ws2_32.lib opencv_core245.lib opencv_highgui245.lib opencv_imgproc245.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\katsu\Desktop\최종본\Display-v1.1\x64\Release\Display.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\katsu\Desktop\최종본\Display-v1.1\x64\Release\Display.lib" /MACHINE:X64 x64\Release\Display.res
+         x64\Release\AutomataKR.obj
+         x64\Release\CvvImage.obj
+         x64\Release\KeyPrint.obj
+         x64\Release\Disply.obj
+         x64\Release\DisplyDlg.obj
+         x64\Release\stdafx.obj
+     1>LINK : warning C4727: 타임스탬프가 동일한 c:\users\katsu\desktop\최종본\display-v1.1\display\x64\release\display.pch PCH가 C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\x64\Release\CvvImage.obj 및 C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\x64\Release\AutomataKR.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+     1>LINK : warning C4727: 타임스탬프가 동일한 c:\users\katsu\desktop\최종본\display-v1.1\display\x64\release\display.pch PCH가 C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\x64\Release\KeyPrint.obj 및 C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\x64\Release\AutomataKR.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+     1>LINK : warning C4727: 타임스탬프가 동일한 c:\users\katsu\desktop\최종본\display-v1.1\display\x64\release\display.pch PCH가 C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\x64\Release\Disply.obj 및 C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\x64\Release\AutomataKR.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+     1>LINK : warning C4727: 타임스탬프가 동일한 c:\users\katsu\desktop\최종본\display-v1.1\display\x64\release\display.pch PCH가 C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\x64\Release\DisplyDlg.obj 및 C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\x64\Release\AutomataKR.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+     1>LINK : warning C4727: 타임스탬프가 동일한 c:\users\katsu\desktop\최종본\display-v1.1\display\x64\release\display.pch PCH가 C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\x64\Release\stdafx.obj 및 C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\x64\Release\AutomataKR.obj에 있습니다.  첫 번째 PCH를 사용합니다.
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+     1>LINK : warning LNK4039: /SECTION 옵션으로 지정된 '.SHAREDATA' 섹션이 없습니다.
+         Display.vcxproj -> C:\Users\katsu\Desktop\최종본\Display-v1.1\x64\Release\Display.exe
+     1>"C:\Users\katsu\Desktop\최종본\Display-v1.1\Display\Display.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:09.73
